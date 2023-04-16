@@ -1,0 +1,75 @@
+/* input.css */
+body{
+    background: url("./assets/Header.png")
+}
+
+
+.input-form {
+  font-weight: 300px;
+  font-size: 50px;
+  color: #fff;
+  font-style:serif;
+  text-align: center;
+  white-space: nowrap; 
+  overflow: hidden; 
+  width: calc(100% - 40px); 
+  padding: 0 20px; 
+  margin-right: 120px;
+}
+
+.form-box{
+    background-color: #e7dbe7;
+    border-radius: 20px;
+    width: 500px;
+    
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    margin: 0 auto; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+/* Styles for the form container */
+.form-container {
+    width: 400px;
+    margin: 0 auto;
+    
+    /* background-color: #007bff; */
+    /* background-color: #53565A;
+    background-image: linear-gradient(-60deg, #bc9bff 50%, #0199ff 50%); */
+
+  }
+  
+  /* Styles for labels */
+  label {
+    display: flex;
+    margin-bottom: 8px;
+    text-align: center;
+    
+    /* border-radius: 4px; */
+    /* border-color: black;
+    border: 10px; */
+  }
+  
+  /* Styles for input and select elements */
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    line-height: 10px;
+    /* border-radius: 4px;
+    border: 5px;
+    border-color: black; */
+  }
+  
+  /* Styles for submit button */
+  input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #433545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
